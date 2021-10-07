@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  height: 15rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  span {
+    width: 100%;
+    line-height: 150%;
+    font-size: 2rem;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+
+  .column {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .increaseBtn,
+  .decreaseBtn,
+  .resetBtn {
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px;
+  }
+
+  .increaseBtn {
+    background-color: #27ae60;
+  }
+  .decreaseBtn {
+    background-color: #e74c3c;
+  }
+  .resetBtn {
+    background-color: #3498db;
+  }
+
+  input {
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+  }
+}
