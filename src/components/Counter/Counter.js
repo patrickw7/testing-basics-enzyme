@@ -20,7 +20,8 @@ const Counter = ({ start = 0 }) => {
   };
 
   const newCounterNumber = (e) => {
-    setCounter(e.target.value);
+    const valueInNumber = parseInt(e.target.value, 10);
+    setCounter(valueInNumber);
   };
 
   return (
